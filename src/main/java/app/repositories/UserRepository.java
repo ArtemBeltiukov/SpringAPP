@@ -15,12 +15,12 @@ public class UserRepository {
 
     @Bean
     @PostConstruct
-    public void initUsers(){
-        users.add(new User("Artem","123","ADMIN"));
-        users.add(new User("Andrew","123","ADMIN"));
+    public void initUsers() {
+        users.add(new User("Artem", "123", "ADMIN"));
+        users.add(new User("Andrew", "123", "ADMIN"));
     }
 
-    public User getByName(String name){
-        return users.stream().filter(x->(x.getName().equals(name))).findFirst().orElseThrow();
+    public User getByName(String name) {
+        return users.stream().filter(x -> (x.getName().equals(name))).findFirst().orElseThrow();
     }
 }

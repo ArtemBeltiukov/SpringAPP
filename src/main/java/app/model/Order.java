@@ -70,4 +70,5 @@ public class Order {
     public void setNomenclatureList(List<Nomenclature> nomenclatureList) {
         this.nomenclatureList = nomenclatureList;
     }
+
 }

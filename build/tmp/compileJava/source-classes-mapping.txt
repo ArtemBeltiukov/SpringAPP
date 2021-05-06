@@ -1,18 +1,30 @@
-app/config/SecurityConfig.java
- app.config.SecurityConfig
-app/model/Nomenclature.java
- app.model.Nomenclature
-app/model/User.java
- app.model.User
+com/baeldung/springsoap/gen/GetOrdersResponse.java
+ com.baeldung.springsoap.gen.GetOrdersResponse
+app/model/Order.java
+ app.model.Order
 app/Main.java
  app.Main
 app/model/Counteragent.java
  app.model.Counteragent
-app/model/Order.java
- app.model.Order
-app/config/UserDetailsServiceImpl.java
- app.config.UserDetailsServiceImpl
+com/baeldung/springsoap/gen/ObjectFactory.java
+ com.baeldung.springsoap.gen.ObjectFactory
+com/baeldung/springsoap/gen/GetOrdersRequest.java
+ com.baeldung.springsoap.gen.GetOrdersRequest
+app/model/User.java
+ app.model.User
+app/config/SecurityConfig.java
+ app.config.SecurityConfig
+com/baeldung/springsoap/gen/package-info.java
+ com.baeldung.springsoap.gen.package-info
+com/baeldung/springsoap/gen/Order.java
+ com.baeldung.springsoap.gen.Order
+app/model/Nomenclature.java
+ app.model.Nomenclature
 app/repositories/UserRepository.java
  app.repositories.UserRepository
 app/controllers/OrderController.java
  app.controllers.OrderController
+app/config/UserDetailsServiceImpl.java
+ app.config.UserDetailsServiceImpl
+app/config/WebServiceConfig.java
+ app.config.WebServiceConfig

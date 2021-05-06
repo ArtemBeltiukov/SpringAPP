@@ -1,4 +1,4 @@
-package store.config;
+package app.config;
 
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;
@@ -22,6 +22,7 @@ public class WebServiceConfig extends WsConfigurerAdapter {
         servlet.setTransformWsdlLocations(true);
         return new ServletRegistrationBean(servlet, "/ws/*");
     }
+
     @Bean(name = "orders")
     public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema ordersSchema) {
         DefaultWsdl11Definition wsdl11Definition = new DefaultWsdl11Definition();

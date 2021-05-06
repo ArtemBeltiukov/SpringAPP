@@ -19,3 +19,9 @@ R
 "src/main/java/app/model/Order.java,e\b\eb59816d5bc564e588b74632a761b35063881931
 b
 2src/main/java/app/controllers/OrderController.java,4\e\4eb7a4ea756bdd2abee27d9d73f421f4654fdc17
+^
+.src/main/java/app/config/WebServiceConfig.java,1\2\12ca09ef9db56c8a093f1a07bcca52e5bd8747fc
+
+Obuild/generated-sources/jaxb/com/baeldung/springsoap/gen/GetOrdersResponse.java,1\b\1b1be4817f68f6728dec109ce734c56bae685d30
+s
+Cbuild/generated-sources/jaxb/com/baeldung/springsoap/gen/Order.java,6\7\6704ec2bd8233ebc78c3813e38168f8f11188bcf
