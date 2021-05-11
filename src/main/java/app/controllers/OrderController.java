@@ -1,8 +1,8 @@
 package app.controllers;
 
-import com.baeldung.springsoap.gen.GetOrdersRequest;
-import com.baeldung.springsoap.gen.GetOrdersResponse;
-import com.baeldung.springsoap.gen.Order;
+import com.example.gen.GetOrdersRequest;
+import com.example.gen.GetOrdersResponse;
+import com.example.gen.Order;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;

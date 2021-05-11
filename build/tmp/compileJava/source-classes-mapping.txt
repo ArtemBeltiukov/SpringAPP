@@ -1,30 +1,30 @@
-com/baeldung/springsoap/gen/GetOrdersResponse.java
- com.baeldung.springsoap.gen.GetOrdersResponse
-app/model/Order.java
- app.model.Order
+com/example/gen/Order.java
+ com.example.gen.Order
+com/example/gen/ObjectFactory.java
+ com.example.gen.ObjectFactory
+app/repositories/UserRepository.java
+ app.repositories.UserRepository
 app/Main.java
  app.Main
 app/model/Counteragent.java
  app.model.Counteragent
-com/baeldung/springsoap/gen/ObjectFactory.java
- com.baeldung.springsoap.gen.ObjectFactory
-com/baeldung/springsoap/gen/GetOrdersRequest.java
- com.baeldung.springsoap.gen.GetOrdersRequest
-app/model/User.java
- app.model.User
-app/config/SecurityConfig.java
- app.config.SecurityConfig
-com/baeldung/springsoap/gen/package-info.java
- com.baeldung.springsoap.gen.package-info
-com/baeldung/springsoap/gen/Order.java
- com.baeldung.springsoap.gen.Order
-app/model/Nomenclature.java
- app.model.Nomenclature
-app/repositories/UserRepository.java
- app.repositories.UserRepository
-app/controllers/OrderController.java
- app.controllers.OrderController
+com/example/gen/package-info.java
+ com.example.gen.package-info
+app/model/Order.java
+ app.model.Order
+com/example/gen/GetOrdersResponse.java
+ com.example.gen.GetOrdersResponse
 app/config/UserDetailsServiceImpl.java
  app.config.UserDetailsServiceImpl
 app/config/WebServiceConfig.java
  app.config.WebServiceConfig
+com/example/gen/GetOrdersRequest.java
+ com.example.gen.GetOrdersRequest
+app/config/SecurityConfig.java
+ app.config.SecurityConfig
+app/model/Nomenclature.java
+ app.model.Nomenclature
+app/model/User.java
+ app.model.User
+app/controllers/OrderController.java
+ app.controllers.OrderController
